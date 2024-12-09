@@ -13,11 +13,9 @@
     }
   ],
   "require": {
-    "php": "^7.3",
+    "php": ">=7.3",
     "creativeorange/gravatar": "~1.0",
-    "laravel/framework": "^8.0",
-    "acacha/filesystem": "^0.1.2",
-    "acacha/helpers": "^0.1.4",
+    "laravel/framework": ">=8.0",
     "league/flysystem": "^1.0",
     "laravel/ui": "^3.0"
   },
@@ -27,7 +25,11 @@
     "laravel/dusk": "^6.0"
   },
   "autoload": {
-    "psr-4": {"Acacha\\AdminLTETemplateLaravel\\": "src"}
+    "psr-4": {
+        "Acacha\\AdminLTETemplateLaravel\\": "src",
+        "Acacha\\Filesystem\\": "src/acacha/filesystem/src",
+        "Acacha\\Helpers\\": "src/acacha/helpers/src"
+    }
   },
   "autoload-dev": {
     "psr-4": {

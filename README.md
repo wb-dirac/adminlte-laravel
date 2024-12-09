@@ -37,7 +37,6 @@ This packages use (no need to install):
 * [Laravel](http://laravel.com/)
 * [AdminLTE](https://github.com/almasaeed2010/AdminLTE). You can see and AdminLTE theme preview at: http://almsaeedstudio.com/preview/
 * [Pratt](http://blacktie.co/demo/pratt/). Pratt Landing Page
-* [acacha/helpers](https://github.com/acacha/helpers) : Extra helpers for Laravel provided by acacha.
 * [creativeorange/gravatar](https://github.com/creativeorange/gravatar): Gravatar support for user's profile images. This could be optional through configuration.
 * [league/flysystem](https://github.com/thephpleague/flysystem) : Filesystem support.
 * [laravel/ui](https://github.com/laravel/ui) : Laravel authentication scaffolding.
